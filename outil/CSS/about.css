@@ -1,0 +1,290 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+
+
+
+:root{
+
+    --main:rgb(12, 12, 12);
+    --second: rgb(252, 185, 15);
+    --use: white;
+    --use2: rgb(144, 144, 144);
+    --font: Montserrat;
+    --font2: "Rubik", sans-serif;;
+    --font4: Caveat;
+    --font3: cursive;
+}
+
+
+
+
+
+
+
+html::-webkit-scrollbar{
+  width: 3px;
+  }
+  html::-webkit-scrollbar-thumb{
+  background: var(--use2);
+  }
+  html::-webkit-scrollbar-track{
+  background: var(--third);
+  }
+
+
+
+
+
+
+
+
+/*  FOR SCREEN LIKE PHONES , TABLET */
+@media screen and (max-width: 970px) {
+
+.container-top{
+    background-image: url("/outil/media/image/charity1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    
+}
+#text-about{
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+#cent-ab p{
+    width: 90%;
+    text-align: center;
+    color: gray;
+}
+.pe-2{
+    color: orange;
+}
+#cent-ab h2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-bottom: solid rgb(62, 62, 62) 2px;
+    width: fit-content;
+    padding-bottom: 5px;
+    color: gray;
+}
+#sec-in-it{
+    display: flex;
+    justify-content: space-around;
+}
+#sec-in-it p{
+    font-family: var(--font);
+    font-size: 15px;
+}
+
+#sec-in-a{
+    width: 48%;
+    border-right: solid rgba(128, 128, 128, 0.689) 1px;
+    padding: 5px;
+}
+#sec-in-b{
+    width: 48%;
+    padding: 5px;
+}
+#sec-in-b img{
+    width: 100%;
+    border-top: solid var(--second) 6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#showing-about{
+    width: 100%;
+    
+}
+#showing-about img{
+    width: 100%;
+    transform: scale(0.9);
+    border-radius: 10px;
+} 
+#how-we-operate{
+    transform: scale(0.9);
+    font-family: var(--font);
+}
+#how-we-operate h3{
+  color: var(--second)
+}
+
+
+#what-we-have-done{
+    transform: scale(0.9);
+    font-family: var(--font);
+}
+#what-we-have-done h3{
+  color: var(--second)
+}
+
+.image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    font-family: var(--font);
+    font-size: 15px;
+}
+.image-item{
+    width: 45%;
+    margin: 5px;
+}
+.image-item img{
+    width: 100%;
+    height: 110px;
+}
+#comment{
+    font-family: var(--font);
+    transform: scale(0.9);
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================================================ */
+
+/* ================================================================================================================ */
+
+/* ================================================================================================================ */
+
+
+
+
+
+
+
+/* FOR SCREEN  LIKE COMPUTERS  */
+
+
+@media screen and (min-width: 971px) {
+
+    .container-top{
+        background-image: url("/outil/media/image/charity1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px;
+        width: 100%;
+        
+    }
+    #text-about{
+      padding: 10px;
+      margin: 10px 0;
+      cursor: pointer;
+    }
+    #cent-ab p{
+        width: 90%;
+        text-align: center;
+        color: gray;
+    }
+    .pe-2{
+        color: orange;
+    }
+    #cent-ab h2{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        border-bottom: solid rgb(62, 62, 62) 2px;
+        width: fit-content;
+        padding-bottom: 5px;
+        color: gray;
+    }
+    #sec-in-it{
+        display: flex;
+        justify-content: space-around;
+    }
+    #sec-in-it p{
+        font-family: var(--font);
+        font-size: 15px;
+    }
+    
+    #sec-in-a{
+        width: 48%;
+        border-right: solid rgba(128, 128, 128, 0.689) 1px;
+        padding: 5px;
+    }
+    #sec-in-b{
+        width: 48%;
+        padding: 5px;
+    }
+    #sec-in-b img{
+        width: 50%;
+        border-top: solid var(--second) 6px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    #showing-about{
+        width: 100%;
+        display: flex;
+    }
+    #showing-about img{
+        width: 50%;
+        transform: scale(0.9);
+        border-radius: 10px;
+    } 
+    #how-we-operate{
+        transform: scale(0.9);
+        font-family: var(--font);
+    }
+    #how-we-operate h3{
+      color: var(--second)
+    }
+    
+    
+    #what-we-have-done{
+        transform: scale(0.9);
+        font-family: var(--font);
+    }
+    #what-we-have-done h3{
+      color: var(--second)
+    }
+    #img-gal{
+        transform: scale(0.8);
+    }
+    .image-gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:left;
+        font-family: var(--font);
+        font-size: 15px;
+    }
+    .image-item{
+        width: 20%;
+        margin: 10px;
+    }
+    .image-item img{
+        width: 100%;
+        height: 200px;
+    }
+    
+
+#comment{
+    font-family: var(--font);
+    transform: scale(0.9);
+}
+
+
+
+}

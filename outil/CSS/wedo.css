@@ -1,0 +1,317 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+
+
+
+:root{
+
+    --main:rgb(12, 12, 12);
+    --second: rgb(252, 185, 15);
+    --use: white;
+    --use2: rgb(144, 144, 144);
+    --font: Montserrat;
+    --font2: "Rubik", sans-serif;;
+    --font4: Caveat;
+    --font3: cursive;
+}
+
+
+
+
+
+
+
+html::-webkit-scrollbar{
+  width: 3px;
+  }
+  html::-webkit-scrollbar-thumb{
+  background: var(--use2);
+  }
+  html::-webkit-scrollbar-track{
+  background: var(--third);
+  }
+
+
+body{
+    background-color: beige;
+}
+
+
+
+
+
+
+
+
+
+/*  FOR SCREEN LIKE PHONES , TABLET */
+@media screen and (max-width: 970px) {
+
+
+    #content-top{
+        width: 100%;
+        background-image: url('/outil/media/image/charity1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding: 20px;
+        font-family: var(--font);
+    
+    }
+    #top-o{
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     font-family: var(--font);
+     background-color: rgba(45, 95, 25, 0.663);
+     padding: 10px;
+     border-radius: 10px;
+     margin-top: 10px;
+    }
+    #top-o #a{
+        width: 100%;
+    }
+    #a h3{
+        color: white;
+    }
+    
+    #a p{
+        color: white;
+    }
+    
+    
+    
+    #focus-point{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        height: auto;
+        margin-bottom: 100px;
+        margin-top: 20px;
+        box-shadow: 3px 2px 3px gray;
+    }
+    #focus-point div{
+        width: 100%;
+        padding: 10px;
+    }
+    #focus-point div p{
+        color: gray;
+    }
+    #focus-point div i{
+        color: var(--second);
+        text-align: center;
+    }
+    
+    
+    /* INTRO TO FOCUS AREA  ================================================================================================================================= */
+    
+    
+    #intro-area{
+       transform: scale(0.99);
+       width: 100%;
+       padding: 10px;
+    }
+    #intro-area p{
+       color: gray;
+    }
+    #all-areas{
+        display: flex;
+        flex-wrap: wrap;
+        transform: scale(0.9);
+        font-family: var(--font);
+        cursor: pointer;
+    }
+    #all-areas #area{
+        width: 100%;
+        margin: 10px;
+        transition: all 0.35s;
+    }
+    #all-areas #area:nth-child(odd) #text-area h4 {
+    color: green;
+    }
+
+    #all-areas #area:hover{
+        transform: scale(0.99);
+        opacity: 0.8;
+    }
+    #all-areas #area #text-area h4{
+        color: var(--second);
+    }
+    #all-areas #area #text-area p{
+        font-size: 15px;
+    }
+    #all-areas #area #image-area{
+        background-image: url('/outil/media/image/charity1.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 190px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        margin-bottom: 5px;
+        border-top: solid gray 5px;
+    }
+    
+    
+    
+    /* ============================================================= */
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================================================ */
+
+/* ================================================================================================================ */
+
+/* ================================================================================================================ */
+
+
+
+
+
+
+
+/* FOR SCREEN  LIKE COMPUTERS  */
+
+
+@media screen and (min-width: 971px) {
+
+
+#content-top{
+    width: 100%;
+    background-image: url('/outil/media/image/char1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 10px;
+    font-family: var(--font);
+
+}
+#top-o{
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
+ font-family: var(--font);
+}
+#top-o #a{
+    width: 50%;
+}
+#a h3{
+    color: white;
+}
+
+#a p{
+    color: white;
+}
+
+
+
+#focus-point{
+    display: flex;
+    background-color: white;
+    height: 300px;
+    margin-bottom: 100px;
+    transform: scale(0.8);
+    box-shadow: 3px 2px 3px gray;
+}
+#focus-point div{
+    width: 35%;
+    padding: 10px;
+}
+#focus-point div p{
+    color: gray;
+}
+#focus-point div i{
+    color: var(--second);
+    text-align: center;
+}
+
+
+/* INTRO TO FOCUS AREA  ================================================================================================================================= */
+
+
+#intro-area{
+   transform: scale(0.9);
+   width: 80%;
+}
+#intro-area p{
+   color: gray;
+}
+#all-areas #area:nth-child(odd) #text-area h4 {
+    color: green;
+    }
+#all-areas{
+    display: flex;
+    flex-wrap: wrap;
+    transform: scale(0.9);
+    font-family: var(--font);
+    cursor: pointer;
+}
+#all-areas #area{
+    width: 22%;
+    margin: 10px;
+    transition: all 0.35s;
+}
+#all-areas #area:hover{
+    transform: scale(0.99);
+    opacity: 0.8;
+}
+#all-areas #area #text-area h4{
+    color: var(--second);
+    font-size: 20px;
+}
+#all-areas #area #text-area p{
+    font-size: 15px;
+}
+#all-areas #area #image-area{
+    background-image: url('/outil/media/image/charity1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 190px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 5px;
+    border-top: solid gray 5px;
+}
+
+
+
+/* ============================================================= */
+
+}

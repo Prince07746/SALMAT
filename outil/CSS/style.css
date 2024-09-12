@@ -1,0 +1,396 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+
+    --main:rgb(12, 12, 12);
+    --second: rgb(252, 185, 15);
+    --use: white;
+    --use2: rgb(144, 144, 144);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+html::-webkit-scrollbar{
+  width: 3px;
+  }
+  html::-webkit-scrollbar-thumb{
+  background: var(--use2);
+  }
+  html::-webkit-scrollbar-track{
+  background: var(--third);
+  }
+
+
+  #languages{
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  #languages a{
+    margin: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.30s;
+    color:#007bff;
+  
+  }
+  #languages a:hover{
+    color: var(--second);
+    transform: scale(0.9);
+  }
+  
+
+
+/*  FOR SCREEN LIKE PHONES , TABLET */
+@media screen and (max-width: 970px) {
+
+/* NAVIGATION BAR */
+  
+.navbar-brand{
+    width: 20%;
+}
+.logo {
+    width: 60%; /* Adjust the size as needed */
+
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 24px;
+    margin-left: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.social-icons a:hover {
+    color: var(--second); /* Change to your desired hover color */
+}
+  
+.navbar{
+    background-color: var(--main);
+    padding: 20px;
+    border-bottom: solid var(--second) 7px;
+    cursor: pointer;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+ 
+.social-icons a{
+    color: white;
+}
+
+
+
+
+
+
+
+/*  FOOTER ========================================= */
+
+
+   /* ==================== FOOTER ==================== */
+
+
+   
+   .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pre-footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  
+}
+
+.pre-footer h2 {
+  margin-top: 0;
+  color: rgb(29, 91, 29);
+  font-family: var(--font3); 
+}
+
+.news-item {
+  margin-bottom: 15px;
+  width: 70%
+}
+
+.news-date {
+  font-size: 0.9em;
+  color: #888;
+}
+
+.news-details {
+  margin: 5px 0 0;
+}
+
+footer {
+  background-color: var(--main);
+  color: white;
+  padding: 20px 0;
+  cursor: pointer;
+}
+footer .row .col-lg-4{
+  margin-top: 10px;
+  border-bottom: solid wheat 2px;
+  padding-bottom: 20px;
+  transform: scale(0.9);
+}
+footer #soc-x a{
+  margin: 10px;
+  text-decoration: none;
+  color: var(--third)
+}
+
+.footer-section {
+  margin: 10px;
+  width: 40%;
+}
+
+.footer-section h4 {
+  border-bottom: 2px solid #555;
+  padding-bottom: 5px;
+  color: rgb(25, 78, 25);
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin: 10px 0;
+}
+
+.footer-section a {
+  color: gray;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: var(--second);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #555;
+}
+
+  
+  /* =================================================== */
+  
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+
+
+
+
+
+
+/* FOR SCREEN  LIKE COMPUTERS  */
+
+
+@media screen and (min-width: 971px) {
+  
+
+    .navbar-brand{
+        width: 20%;
+    }
+    .logo {
+        width: 20%; /* Adjust the size as needed */
+    }
+    
+    .social-icons a {
+        color: #333;
+        font-size: 24px;
+        margin-left: 15px;
+        text-decoration: none;
+    }
+    
+    .social-icons a:hover {
+        color: var(--second); /* Change to your desired hover color */
+    }
+      
+    .navbar{
+        background-color: black;
+        padding: 20px;
+        height: 100px;
+        border-bottom: solid var(--second) 7px;
+        cursor: pointer;
+    }
+    .container-fluid{
+        display: flex;
+        justify-content: space-between;
+    
+        align-items: center;
+    }
+     
+    .social-icons a{
+        color: white;
+    }
+    
+
+
+
+
+/*  FOOTER ========================================= */
+
+
+
+.pre-footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-top: 30px;
+    font-family: var(--font2);
+    border-left: solid var(--second) 10px;
+    border-right: solid rgb(20, 66, 20) 10px;
+  }
+  
+  .pre-footer h2 {
+    margin-top: 0;
+    color: rgb(27, 80, 27);
+  }
+  .pre-footer h3 {
+    color:#495057;
+    font-family: var(--font3);
+    font-size: 20px;
+  }
+  
+  .news-item {
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 30%;
+  }
+  
+  .news-date {
+    font-size: 0.9em;
+    color: #888;
+  }
+  
+  .news-details {
+    margin: 5px 0 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    transform: scale(0.9);
+    padding: 20px;
+    border-top-left-radius: 30px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+  }
+  
+  .footer-section h4 {
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin: 10px 0;
+  }
+  footer #soc-x a{
+    margin: 10px;
+    text-decoration: none;
+    color: var(--third)
+  }
+  .footer-section a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    color: var(--second);
+    transform: scale(0.9);
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #555;
+  }
+  
+  
+  
+  /* ==================================================== */
+  
+
+
+
+
+}
